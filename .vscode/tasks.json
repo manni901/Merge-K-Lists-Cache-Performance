@@ -1,0 +1,24 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build merge_list",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "-Wall",
+                "-std=c++11",
+                "-g",
+                "merge_list.cpp",
+                "-o",
+                "merge_list"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
