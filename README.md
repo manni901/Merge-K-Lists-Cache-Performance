@@ -23,4 +23,4 @@
   - The comparison plots for naive vs heap are in the following files: 
     ![Number of Lists: 10](NumList_10.png)
     ![Number of Lists: 50](NumList_50.png)
-    ![Number of Lists: 100](NumList_10.png)
+    ![Number of Lists: 100](NumList_100.png)
